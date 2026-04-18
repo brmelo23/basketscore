@@ -1,0 +1,140 @@
+@font-face {
+    font-family: DS-Digital;
+    src: url(fonts/DS-DIGIT.TTF)
+}
+
+body {
+    background-image: url("pictures/basketscore.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #1b244a;
+    color: whitesmoke;
+    margin: 250px auto;
+    display: flex;
+    justify-content: space-around;
+    border: solid 10px lightgrey;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+#homescore {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#homescore h1 {
+    font-family: DS-Digital;
+    color: #f94f6d;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    display: flexbox;
+    align-content: center;
+    background-color: black;
+    width: 165px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 125px;
+}
+
+#homescore button {
+    background: transparent;
+    color: lightgrey;
+    border: solid 2px lightgray;
+    border-radius: 5px;
+}
+
+#guestscore {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#guestscore h1 {
+    font-family: DS-Digital;
+    color: #f94f6d;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    display: flexbox;
+    align-content: center;
+    background-color: black;
+    width: 165px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 125px;
+}
+
+#guestscore button {
+    background: transparent;
+    color: lightgrey;
+    border: solid 2px lightgray;
+    border-radius: 5px;
+}
+
+#newgame {
+    display: flexbox;
+    align-items: center;
+    margin-top: 137px;
+}
+
+#newgame button {
+    background: transparent;
+    color: lightgrey;
+    border: solid 2px lightgray;
+    border-radius: 5px;
+}
+
+.assists {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.assists h5{
+    color: lightgray;
+    margin-top: 100px;
+    margin-bottom: -60px;
+}
+
+.assistsrow {
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+#homeass h6 {
+    color: lightgray;
+    margin-top: 75px;
+}
+
+#homeass p {
+    margin-top: -20px;
+    background-color: black;
+    font-family: DS-Digital;
+    color: #f94f6d;
+    border-radius: 5px;
+}
+
+#guestass h6 {
+    color: lightgray;
+    margin-top: 75px;
+}
+
+#guestass p {
+    margin-top: -20px;
+    background-color: black;
+    font-family: DS-Digital;
+    color: #f94f6d;
+    border-radius: 5px;
+}

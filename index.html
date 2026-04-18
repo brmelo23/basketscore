@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="homescore">
+                <h3>HOME</h3>
+                <h1 id="home-el">0</h1>
+                <button onclick="haddone()">+1</button>
+                <button onclick="haddtwo()">+2</button>
+                <button onclick="haddthree()">+3</button>
+            </div>
+            <div class="assists">
+                <h5>Assists</h5>
+                <div class="assistsrow"> 
+                    <div id="homeass">
+                        <h6>Home</h6>
+                        <p id="homeass-el">0</p>
+                    </div>
+                    <div id="guestass">
+                        <h6>Guest</h6>
+                        <p id="guestass-el">0</p>
+                    </div>
+                </div>
+                <div id="newgame">
+                <button onclick="newgame()">New Game</button>
+                </div>
+            </div>
+            
+            <div id="guestscore">
+                <h3>GUEST</h3>
+                <h1 id="guest-el">0</h1>
+                <button onclick="gaddone()">+1</button>
+                <button onclick="gaddtwo()">+2</button>
+                <button onclick="gaddthree()">+3</button>
+            </div>
+        </div>
+        <script src="strings.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
