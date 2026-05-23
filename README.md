@@ -147,5 +147,3 @@ Developed as part of a structured Full Stack learning path, focused on building 
 ## 📄 License
 
 Educational use.
-
-MIT License
